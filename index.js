@@ -24,7 +24,7 @@ route((e) => {
     case "/LazerVsMoietyUpdate/":
       $("#msg").html("Home");
       break;
-    case "/LazerVsMoietyUpdate/latest":
+    case "/LazerVsMoietyUpdate/#latest":
       update();
       break;
     default:
