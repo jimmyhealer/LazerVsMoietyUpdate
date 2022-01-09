@@ -1,0 +1,28 @@
+{
+  "name": "lazervsmoietyupdate",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build --public-url https://jimmyhealer.github.io/lazervsmoietyupdate/ --dist-dir docs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyhealer/LazerVsMoietyUpdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmyhealer/LazerVsMoietyUpdate/issues"
+  },
+  "homepage": "https://github.com/jimmyhealer/LazerVsMoietyUpdate#readme",
+  "dependencies": {
+    "firebase": "^9.6.2",
+    "jquery": "^3.6.0",
+    "jqueryrouter": "^2.2.12"
+  },
+  "devDependencies": {
+    "parcel": "^2.1.1"
+  }
+}
