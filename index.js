@@ -19,15 +19,16 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 route((e) => {
+  console.log(e.route)
   switch (e.route) {
-    case "/":
+    case "/LazerVsMoietyUpdate/":
       $("#msg").html("Home");
       break;
-    case "/latest":
+    case "/LazerVsMoietyUpdate/latest":
       update();
       break;
     default:
-      $("#msg").html("404");
+      $("#msg").html("404 Not Found");
   }
 });
 
